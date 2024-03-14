@@ -1,4 +1,4 @@
-
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
@@ -36,7 +36,28 @@
             </div>
             <div class="col-md-10">
                 <h1>Product recommendation</h1>
-                
+                <h2 style="margin-top: 70px;">Furniture</h2>
+                <div class="d-inline-flex p-5 bg-secondary text-white">
+                    <div class="p-2">
+                        <div class="card" style="width:40px">
+                            <img src="{%static 'nimo.jpg'%}" alt="Chair">
+                        </div>
+                    </div>
+
+                </div>
+                <h2>Clothing</h2>
+                <div class="d-inline-flex p-5 bg-secondary text-white">
+                    <div class="card" style="width:40px">
+                        <img src="{%static 'nimo.jpg'%}" alt="Gucci">
+                    </div>
+                  
+                </div>
+                <h2>Electronics</h2>
+                <div class="d-inline-flex p-5 bg-secondary text-white">
+                    <div class="card" style="width:40px">
+                        <img src="{%static 'nimo.jpg'%}" alt="Speaker">
+                    </div>
+                </div>
                 
             </div>
 
