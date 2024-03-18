@@ -30,11 +30,11 @@ class SignUpView(generic.CreateView):
 
             if gender.lower()=='male':
                 gender = 0
-            elif gender.lower == 'female':
+            elif gender.lower() == 'female':
                 gender =1
   
 
-             
+            
             prediction = model.predict([[age, budget, gender,location]])
             
 
