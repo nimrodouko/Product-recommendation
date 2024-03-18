@@ -5,7 +5,7 @@ from django.views import generic
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from joblib import load  #inaleta model
-model = load('models/products.joblib')
+model = load('models/refinedproducts.joblib')
 
 class SignUpView(generic.CreateView):
     form_class = CustomUserCreationForm
