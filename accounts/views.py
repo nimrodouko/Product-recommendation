@@ -9,7 +9,7 @@ model = load('models/refinedproducts.joblib')
 
 class SignUpView(generic.CreateView):
     form_class = CustomUserCreationForm
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('index')
     template_name = 'signup.html'
 
     

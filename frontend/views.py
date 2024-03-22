@@ -4,7 +4,7 @@ from .models import *
 # Create your views here.
 
 class HomeView(TemplateView):
-    template_name = 'home.html'
+    template_name = 'index.html'
 
 class ElectronicView(ListView):
     model = Electronics
